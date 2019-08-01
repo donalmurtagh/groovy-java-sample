@@ -6,7 +6,7 @@ class TestJavaAndGroovy extends Specification {
 
     def "test a Java class"() {
         expect:
-        new JavaFoo().get22() == 22
+        new JavaFoo().getNumber() == 22
     }
 
     def "test a Groovy class"() {
@@ -14,6 +14,6 @@ class TestJavaAndGroovy extends Specification {
         def foo = new GroovyFoo()
 
         then:
-        foo.get22() == 22
+        foo.getNumber() == 22
     }
 }

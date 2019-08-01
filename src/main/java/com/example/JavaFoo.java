@@ -2,7 +2,7 @@ package com.example;
 
 public class JavaFoo {
 
-    public int get22() {
+    public int getNumber() {
         return 22;
     }
 }
